@@ -13,7 +13,7 @@ ENTRYPOINT ["dotnet", "ci-cd-api.dll"]
 
 #docker build -t kubapi . #run this command again if you want to update the container with your latest code
 #Use a specific port that runs the application in the container
-#docker run -p 8082:80 -e ASPNETCORE_URLS=http://+:80 kubapi
+#docker run -p 8082:80 -e ASPNETCORE_URLS=http://+:80 mydemo
 #docker build . -t esataydin/kubapi:v1
 #docker push esataydin/kubapi:v1
 #kubectl get all
